@@ -22,6 +22,6 @@ public class Match
 
     public void AnnounceraMålskytt(Spelare spelare)
     {
-        Console.WriteLine($"Idag spelar dessutom {spelare.Namn} med nummer {spelare.Nummer} på position {spelare.Position}");
+        Console.WriteLine($"Idag spelar {spelare.Namn} med nummer {spelare.Nummer} på position {spelare.Position}");
     }
 }
