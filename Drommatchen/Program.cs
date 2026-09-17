@@ -1,5 +1,5 @@
 Spelare spelare1 = new Spelare("Lionel Messi", 10, "Winger");
-Spelare spelare2 = new Spelare("Cristiano Ronaldo", 9, "Striker");
+Spelare spelare2 = new Spelare("Cristiano Ronaldo", 7, "Striker");
 
 Match match = new Match("Portugal", "Argentina", "10-10-2026");
 
