@@ -7,3 +7,4 @@ match.Presentera();
 
 match.AnnounceraMålskytt(spelare1);
 match.AnnounceraMålskytt(spelare2);
+Console.ReadKey();

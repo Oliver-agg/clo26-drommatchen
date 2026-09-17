@@ -8,7 +8,7 @@ public class Match
   
     public string Datum { get; private set; }
     
-    public Match(string hemmalag, string bortalag, string datum)
+    public Match(string hemmalag, string bortalag, string datum)    
     {
         Hemmalag = hemmalag;
         Bortalag = bortalag;

@@ -1,9 +1,9 @@
 # Reflektion
 
-**Namn:**  
-**Kurs:**  
-**Uppgift:**  
-**Datum:**  
+**Namn: Oliver
+**Kurs: Grundläggande OOP
+**Uppgift: Drömmatchen
+**Datum: 2026-09-17
 
 ---
 
@@ -13,8 +13,7 @@
 ---
 
 ## Vad var svårast att lösa?
-
-*Var fastnade du? Vad tog längre tid än du trodde — och hur kom du vidare?*
+Jag fastande faktiskt mest på properties delen. Mest för att jag försökte klura ut hur auto properties faktiskt fungerade. När det väl satte sig så flöt det på ganska lätt. Hur jag kom vidare var egentligen bara att jag förstod att skriva ut det helt var detsamma som att skriva public string x {get; private set}.
 
 > 
 
@@ -31,6 +30,19 @@
 
 ## Om du fick göra om det — vad hade du gjort annorlunda?
 
-*Tänk på din lösning, din struktur, eller hur ni jobbade. Vad skulle du ändra?*
 
-> 
+Ifall jag hade gjort om allt så hade jag istället använt auto-properties till och börja med. För jag börja med att fylla båda klasserna såhär först:
+private string bortalag;
+
+public string Bortalag;
+{
+  get 
+  {
+    return bortalag;
+  }
+  private set 
+  {
+    bortalag = value;
+  }
+}
+Detta är egentligen detsamma som public string Bortalag {get; private set} men bara mycket smidare och snyggare

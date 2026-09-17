@@ -7,11 +7,11 @@ public class Spelare
 
 
 
-    
+
     public Spelare(string namn, int nummer, string position)
-     {
+    {
         Namn = namn;
         Nummer = nummer;
         Position = position;
-     }
+    }
 }
