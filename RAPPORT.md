@@ -82,5 +82,18 @@ AnnounceraMålskytt(Spelare spelare) Metoden har parametrar, varför? Då jag sk
 Klistra in utskriften från `git log --oneline` här:
 
 ```
-[klistra in här]
+[olive@LAPTOP-B4RMIJEK MINGW64 ~/source/repos/clo26-drommatchen (main)
+$ git log --oneline
+129c6eb (HEAD -> main, origin/main, origin/HEAD) Added Console.ReadKey(); and reflektion
+39eeec4 Add project report
+3e95166 Changed Ronaldo number from 9 to 7, big mistake
+d2dabc8 Final project in program.cs
+0ae6140 Added match.presentera, match.announceraMålskytt spelare1 and spelare2
+6dd14ce Started with program.cs
+0d23dc3 Implement Match class
+3b00d53 Skapade spelare class med privata fält och properties och konstruktor
+35825ed Solutionfile added at root
+34de7d5 refactor: gör property-kroppar tomma — studerande implementerar själva
+66f4917 init: starterrepo för Drömmatchen (Inlämning 1)
+]
 ```
